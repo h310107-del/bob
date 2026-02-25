@@ -1,0 +1,40 @@
+{
+  "name": "AI 個人網頁開發環境",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ritwickdey.liveserver",
+        "esbenp.prettier-vscode",
+        "formulahendry.auto-rename-tag",
+        "ecmel.vscode-html-css",
+        "zignd.html-css-class-completion",
+        "pranaygp.vscode-css-peek",
+        "github.copilot"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.fontSize": 14,
+        "editor.tabSize": 2,
+        "editor.wordWrap": "on",
+        "liveServer.settings.donotShowInfoMsg": true,
+        "liveServer.settings.donotVerifyTags": true,
+        "files.autoSave": "afterDelay",
+        "files.autoSaveDelay": 1000
+      }
+    }
+  },
+  
+  "postCreateCommand": "echo '🎉 開發環境準備完成！請按 F1 並輸入 Live Server: Open with Live Server 來預覽網頁'",
+  
+  "forwardPorts": [5500],
+  
+  "portsAttributes": {
+    "5500": {
+      "label": "網頁預覽",
+      "onAutoForward": "notify"
+    }
+  }
+}
