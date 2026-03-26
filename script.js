@@ -12,9 +12,14 @@ document.addEventListener('DOMContentLoaded', function() {
     // 取得主題切換按鈕
     const themeToggle = document.getElementById('themeToggle');
     
-    // 檢查使用者之前是否選過深色模式
+    // 檢查使用者之前是否選過主題，沒有則預設深色模式
     const currentTheme = localStorage.getItem('theme');
-    if (currentTheme === 'dark') {
+    if (currentTheme === 'light') {
+        // 淺色模式
+        document.body.classList.remove('dark-mode');
+        themeToggle.textContent = '🌙';
+    } else {
+        // 深色模式為預設
         document.body.classList.add('dark-mode');
         themeToggle.textContent = '☀️';
     }

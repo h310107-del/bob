@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>王小明的個人網頁</title>
+    <title>Bob - 健身強化者</title>
     <!-- 連結到我們的樣式表 CSS 檔案 -->
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="dark-mode">
     <!-- 導覽列：網頁最上方的選單 -->
     <nav class="navbar">
         <div class="container">
-            <h1 class="logo">王小明</h1>
+            <h1 class="logo">Bob</h1>
             <!-- 導覽選單連結 -->
             <ul class="nav-menu">
                 <li><a href="#home">首頁</a></li>
                 <li><a href="#about">關於我</a></li>
                 <li><a href="#hobbies">興趣</a></li>
+                <li><a href="#protein">預算蛋白質</a></li>
                 <li><a href="#gallery">相簿</a></li>
                 <li><a href="#contact">聯絡</a></li>
             </ul>
@@ -31,9 +32,9 @@
         <section id="home" class="hero">
             <div class="container">
                 <div class="hero-content">
-                    <h2 class="hero-title animate-fade-in">哈囉！我是王小明 👋</h2>
-                    <p class="hero-subtitle animate-fade-in-delay">歡迎來到我的個人網頁</p>
-                    <p class="hero-description">一個熱愛學習與創作的高中生</p>
+                    <h2 class="hero-title animate-fade-in">💪 我是Bob，超級健身愛好者</h2>
+                    <p class="hero-subtitle animate-fade-in-delay">歡迎來到我的健身生活分享</p>
+                    <p class="hero-description">致力於健身訓練、營養補充、蛋白質攻略的健身達人</p>
                     <a href="#about" class="btn btn-primary">認識我</a>
                 </div>
             </div>
@@ -50,50 +51,50 @@
                     </div>
                     <!-- 個人介紹文字 -->
                     <div class="about-text">
-                        <h3>嗨！很高興認識你 🎉</h3>
-                        <p>我是王小明，目前就讀於台北市某高中二年級。我對程式設計、音樂和攝影都很有興趣。</p>
-                        <p>這是我第一次用 AI 輔助建立的個人網頁，希望能在這裡分享我的學習歷程與作品！</p>
+                        <h3>嗨！很高興認識你 💪</h3>
+                        <p>我是Bob，一個癡迷於健身的年輕人。我對健身訓練、蛋白質營養和健身生活方式都非常熱情。</p>
+                        <p>這個網頁是我用 AI 輔助建立的，在這裡分享我的健身心得、訓練方法和蛋白質補充知識！</p>
                         
                         <!-- 個人特質標籤 -->
                         <div class="tags">
-                            <span class="tag">程式愛好者</span>
-                            <span class="tag">音樂欣賞</span>
-                            <span class="tag">攝影</span>
-                            <span class="tag">閱讀</span>
+                            <span class="tag">健身愛好者</span>
+                            <span class="tag">蛋白質專家</span>
+                            <span class="tag">營養學徒</span>
+                            <span class="tag">肌肉建設者</span>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- 興趣區塊 -->
+        <!-- 我的興趣區塊 -->
         <section id="hobbies" class="section bg-secondary">
             <div class="container">
                 <h2 class="section-title">我的興趣</h2>
                 <div class="hobbies-grid">
                     <!-- 興趣卡片 1 -->
                     <div class="card hover-lift">
-                        <div class="card-icon">💻</div>
-                        <h3>程式設計</h3>
-                        <p>喜歡透過程式碼創造有趣的東西，目前正在學習網頁開發！</p>
+                        <div class="card-icon">🏋️</div>
+                        <h3>重量訓練</h3>
+                        <p>每周定期進行重量訓練，追求肌肉增長和力量提升！</p>
                     </div>
                     <!-- 興趣卡片 2 -->
                     <div class="card hover-lift">
-                        <div class="card-icon">🎵</div>
-                        <h3>音樂</h3>
-                        <p>喜歡聽各種類型的音樂，偶爾也會自己彈吉他。</p>
+                        <div class="card-icon">🥚</div>
+                        <h3>蛋白質補充</h3>
+                        <p>深究各種蛋白質來源，科學搭配營養，優化身體成分。</p>
                     </div>
                     <!-- 興趣卡片 3 -->
                     <div class="card hover-lift">
-                        <div class="card-icon">📸</div>
-                        <h3>攝影</h3>
-                        <p>喜歡用相機記錄生活中的美好瞬間。</p>
+                        <div class="card-icon">🥤</div>
+                        <h3>健身飲食</h3>
+                        <p>研究健身飲食計劃，分享美味又營養的健身食譜。</p>
                     </div>
                     <!-- 興趣卡片 4 -->
                     <div class="card hover-lift">
-                        <div class="card-icon">📚</div>
-                        <h3>閱讀</h3>
-                        <p>喜歡閱讀科幻小說和科普書籍，探索未知的世界。</p>
+                        <div class="card-icon">📊</div>
+                        <h3>進度追蹤</h3>
+                        <p>記錄訓練數據和身體指標，科學化健身計劃，達成目標。</p>
                     </div>
                 </div>
             </div>
@@ -103,55 +104,156 @@
         <section id="gallery" class="section">
             <div class="container">
                 <h2 class="section-title">相簿</h2>
-                <p class="section-subtitle">分享一些我拍攝的照片</p>
+                <p class="section-subtitle">我的健身訓練和健身成果照片</p>
                 <div class="gallery-grid">
                     <!-- 照片 1 -->
                     <div class="gallery-item">
-                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" alt="風景照片 1" class="gallery-image">
+                        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&h=300&fit=crop" alt="健身房訓練" class="gallery-image">
                         <div class="gallery-overlay">
-                            <p>美麗的日落</p>
+                            <p>重量訓練日</p>
                         </div>
                     </div>
                     <!-- 照片 2 -->
                     <div class="gallery-item">
-                        <img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=400&h=300&fit=crop" alt="風景照片 2" class="gallery-image">
+                        <img src="https://images.unsplash.com/photo-1540497905703-26baf88ee935?w=400&h=300&fit=crop" alt="有氧運動" class="gallery-image">
                         <div class="gallery-overlay">
-                            <p>城市夜景</p>
+                            <p>有氧訓練</p>
                         </div>
                     </div>
                     <!-- 照片 3 -->
                     <div class="gallery-item">
-                        <img src="https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?w=400&h=300&fit=crop" alt="風景照片 3" class="gallery-image">
+                        <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=300&fit=crop" alt="力量訓練" class="gallery-image">
                         <div class="gallery-overlay">
-                            <p>山中小徑</p>
+                            <p>力量提升</p>
                         </div>
                     </div>
                     <!-- 照片 4 -->
                     <div class="gallery-item">
-                        <img src="https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=400&h=300&fit=crop" alt="風景照片 4" class="gallery-image">
+                        <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?w=400&h=300&fit=crop" alt="蛋白質餐點" class="gallery-image">
                         <div class="gallery-overlay">
-                            <p>海邊風光</p>
+                            <p>營養餐點</p>
                         </div>
                     </div>
                     <!-- 照片 5 -->
                     <div class="gallery-item">
-                        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=300&fit=crop" alt="風景照片 5" class="gallery-image">
+                        <img src="https://images.unsplash.com/photo-1556821552-23d517bebda3?w=400&h=300&fit=crop" alt="健身補充" class="gallery-image">
                         <div class="gallery-overlay">
-                            <p>咖啡時光</p>
+                            <p>蛋白質乳清</p>
                         </div>
                     </div>
                     <!-- 照片 6 -->
                     <div class="gallery-item">
-                        <img src="https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=400&h=300&fit=crop" alt="風景照片 6" class="gallery-image">
+                        <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&h=300&fit=crop" alt="健身成果" class="gallery-image">
                         <div class="gallery-overlay">
-                            <p>街頭藝術</p>
+                            <p>健身成果秀</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- 聯絡區塊 -->
+        <!-- 預算蛋白質攻略區塊 -->
+        <section id="protein" class="section">
+            <div class="container">
+                <h2 class="section-title">🥚 高中生的預算蛋白質攻略</h2>
+                <p class="section-subtitle">如何在預算內獲得高蛋白營養</p>
+                
+                <div class="protein-grid">
+                    <!-- 便宜蛋白質來源 1 -->
+                    <div class="protein-card">
+                        <div class="protein-icon">🥚</div>
+                        <h3>雞蛋</h3>
+                        <p class="protein-amount">蛋白質：13g/100g</p>
+                        <p>完整氨基酸，些钠豊富，超紓方便。曔網員水化後不會深感餫子。</p>
+                    </div>
+                    
+                    <!-- 便宜蛋白質來源 2 -->
+                    <div class="protein-card">
+                        <div class="protein-icon">🍗</div>
+                        <h3>雞胸肉</h3>
+                        <p class="protein-amount">蛋白質：31g/100g</p>
+                        <p>高蛋白但低脂肪，新鮪超低。不影響真、粗紋好消化。</p>
+                    </div>
+                    
+                    <!-- 便宜蛋白質來源 3 -->
+                    <div class="protein-card">
+                        <div class="protein-icon">�</div>
+                        <h3>罐頭鮪魚</h3>
+                        <p class="protein-amount">蛋白質：26g/100g</p>
+                        <p>高蛋白低脂肪，富含 Omega-3 厚脛。保存久，便於搽帶。</p>
+                    </div>
+                    
+                    <!-- 便宜蛋白質來源 4 -->
+                    <div class="protein-card">
+                        <div class="protein-icon">�</div>
+                        <h3>瘦牛絞肉</h3>
+                        <p class="protein-amount">蛋白質：25g/100g</p>
+                        <p>优质瘦牛，高蛋白但比普通牤肩肉低脂肪。多b胃特宜。</p>
+                    </div>
+                    
+                    <!-- 便宜蛋白質來源 5 -->
+                    <div class="protein-card">
+                        <div class="protein-icon">🍚</div>
+                        <h3>豆腐</h3>
+                        <p class="protein-amount">蛋白質：15.7g/100g</p>
+                        <p>約便易消化。悠頑素丰富，会不會肅胃不適。</p>
+                    </div>
+                    
+                    <!-- 便宜蛋白質來源 6 -->
+                    <div class="protein-card">
+                        <div class="protein-icon">🥤</div>
+                        <h3>蛋白質粉</h3>
+                        <p class="protein-amount">蛋白質：80g/100g</p>
+                        <p>超高效能蛋白補充。敗部訓練後圓快遐修複。方便搽帶。</p>
+                    </div>
+                </div>
+                
+                <!-- 每日蛋白質計畫 -->
+                <div class="daily-plan">
+                    <h3>📋 高中生每日優質蛋白質計畫</h3>
+                    <div class="plan-table">
+                        <div class="plan-row">
+                            <div class="plan-meal">早餐</div>
+                            <div class="plan-food">蛋吐司 + 牛奶</div>
+                            <div class="plan-protein">蛋白質：15g</div>
+
+                        </div>
+                        <div class="plan-row">
+                            <div class="plan-meal">午餐</div>
+                            <div class="plan-food">瘦牛絞肉 + 罐頭鮪魚</div>
+                            <div class="plan-protein">蛋白質：50g</div>
+
+                        </div>
+                        <div class="plan-row">
+                            <div class="plan-meal">晚餐</div>
+                            <div class="plan-food">豆腐湯 + 雞蛋</div>
+                            <div class="plan-protein">蛋白質：25g</div>
+
+                        </div>
+                        <div class="plan-row highlight">
+                            <div class="plan-meal"><strong>每日合計</strong></div>
+                            <div class=\"plan-food\"><strong>高效蛋白質</strong></div>
+                            <div class=\"plan-protein\"><strong>蛋白質：95g</strong></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 省錢訣竅 -->
+                <div class="money-tips">
+                    <h3>💰 高中生省錢訣竅</h3>
+                    <ul class="tips-list">
+                        <li><strong>買散裝而不是包裝品</strong> - 可省 20-30%</li>
+                        <li><strong>比較不同超市價格</strong> - 同一商品差價很大</li>
+                        <li><strong>買當季食材</strong> - 當季便宜又新鮮</li>
+                        <li><strong>自己煮而不要外食</strong> - 同樣蛋白質便宜 60%</li>
+                        <li><strong>大量購買冷凍食品</strong> - 保存久、便宜、營養不減</li>
+                        <li><strong>利用便利超商折扣時間</strong> - 晚上 8-11 點常有優惠</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 相簿區塊 -->
         <section id="contact" class="section bg-secondary">
             <div class="container">
                 <h2 class="section-title">聯絡我</h2>
@@ -161,15 +263,15 @@
                 <div class="contact-info">
                     <div class="contact-item hover-scale">
                         <span class="contact-icon">📧</span>
-                        <p>Email: xiaoming@example.com</p>
+                        <p>Email: bob@fitness.com</p>
                     </div>
                     <div class="contact-item hover-scale">
                         <span class="contact-icon">📱</span>
-                        <p>Instagram: @xiaoming</p>
+                        <p>Instagram: @BobFitnessJourney</p>
                     </div>
                     <div class="contact-item hover-scale">
-                        <span class="contact-icon">🐙</span>
-                        <p>GitHub: @xiaoming</p>
+                        <span class="contact-icon">💪</span>
+                        <p>TikTok: @bobmuscle</p>
                     </div>
                 </div>
 
@@ -190,7 +292,7 @@
     <!-- 頁尾 -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 王小明的個人網頁 | 使用 AI 輔助製作</p>
+            <p>&copy; 2026 Bob的健身頻道 | 致力於健身教育 💪
         </div>
     </footer>
 
