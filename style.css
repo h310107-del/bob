@@ -162,8 +162,6 @@ html {
     box-shadow: 0 4px 12px rgba(168, 153, 104, 0.3);
     border-color: var(--primary-hover);
 }
-    background-color: var(--primary-color);
-}
 
 /* ==========================================
    首頁英雄區塊
@@ -175,7 +173,8 @@ html {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(135deg, var(--primary-color) 0%, #8b5cf6 100%);
+    background: linear-gradient(180deg, rgba(44, 36, 22, 0.85), rgba(44, 36, 22, 0.65)),
+      url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;
     color: var(--text-light);
 }
 
