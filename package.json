@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "live-server",
     "start": "live-server"
-  },
+  
   "keywords": ["web development", "education", "ai-assisted"],
   "author": "",
   "license": "MIT",
